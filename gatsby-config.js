@@ -5,5 +5,13 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+		{
+			resolve: 'gatsby-plugin-snipcart',
+			options: {
+        apiKey: 'YzU2ODE2NDQtOGY4NC00ODc5LWFjNzMtOTNmMDNmYTQyNDkxNjM3Mjg0MzcxMDY5NTU5Mzk2',
+        autopop:true,
+			}
+		},
+	]
 }

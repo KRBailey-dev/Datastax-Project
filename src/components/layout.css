@@ -1,0 +1,895 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.Container {
+    display: flex;
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    min-width: 480px;
+
+    background: linear-gradient(0deg, #FAF5F2, #FAF5F2), linear-gradient(95.52deg, #0C153A 0%, #1F4ADE 181.16%);
+}
+
+
+.vector8 {
+    position: absolute;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 1467.36px;
+    height: 1197.13px;
+    height: 100%;
+    width: 100%;
+}
+
+.vector {
+    display: flex;
+    position: absolute;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 1467.36px;
+    height: 120%;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    flex: 0 1 auto;
+    flex-basis: 480px;
+    align-items: baseline;
+    justify-content: space-around;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 48px;
+    flex-wrap: wrap;
+}
+
+.proHeader {
+    display: flex;
+    position: relative;
+    flex: 0 1 auto;
+    flex-basis: 480px;
+    align-items: baseline;
+    justify-content: space-between;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 48px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    height: 39px;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 48px;
+}
+
+.download {
+    background-color: #FF7D2B;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 24px;
+    color:white;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+
+.title {
+    padding-top: 15rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 10000px;
+    line-height: 24px;
+    margin-left: 160px;
+}
+
+h1 {
+    display: flex;
+    position: relative;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)),url("../images/Heading-background.jpg");
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.01em;
+    margin-right: 420px;
+    margin-left: 160px;
+    min-width: 480px;
+}
+
+/*********** Product Page *****************/
+
+.proContainer {
+    display: flex;
+    height: 5600px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-width: 480px;
+
+    background: linear-gradient(0deg, #FAF5F2, #FAF5F2), linear-gradient(95.52deg, #0C153A 0%, #1F4ADE 181.16%);
+}
+
+.col {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    margin-left: 150px;
+    padding-top: 25rem;
+    padding-bottom: 10rem;
+    color: #0C153A;
+}
+.keep {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    margin-right: 150px;
+    letter-spacing: -0.01em;
+    color: #0C153A;
+}
+
+.description {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 120px;
+    margin-right: 150px;
+    letter-spacing: -0.01em;
+    color: #0C153A;
+}
+
+/************ Mid Page ***********/
+
+.circle {
+    display: flex;
+    background-color: #0C153A;
+    border-radius: 50%;
+    margin-left: 400px;
+    height: 600px;
+    width: 600px;
+}
+
+.Cloud {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content:flex-start;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 450px;
+    height: 550px;
+}
+
+.toolsContainer {
+    display: flex;
+    flex-direction: start;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    color: #0C153A;
+}
+
+.dollarContainer {
+    display: flex;
+    flex-wrap: wrap;
+    color: #0C153A;
+}
+
+.cirDollar{
+    display: flex;
+    background-color: #0C153A;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.dollar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 18px;
+    width: 25px;
+    height: 25px;
+    filter: invert(98%) sepia(77%) saturate(569%) hue-rotate(303deg) brightness(116%) contrast(94%);
+}
+
+.dollarHead {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-top: 2rem;
+    color: #0C153A;
+}
+
+.dollarBody {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding-top: 2rem;
+    color: #0C153A;
+}
+
+.shieldContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    color: #0C153A;
+}
+
+.cirShield{
+    display: flex;
+    background-color: #0C153A;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.shield {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+    filter: invert(98%) sepia(77%) saturate(569%) hue-rotate(303deg) brightness(116%) contrast(94%);
+}
+
+.shieldHead {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-top: 2rem;
+    color: #0C153A;
+}
+
+.shieldBody {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding-top: 2rem;
+    color: #0C153A;
+}
+
+.triContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+    color: #0C153A;
+}
+
+.cirTriangle{
+    display: flex;
+    background-color: #0C153A;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+}
+
+.triangle{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 17px;
+    margin-top: 17px;
+    width: 25px;
+    height: 25px;
+    filter: invert(98%) sepia(77%) saturate(569%) hue-rotate(303deg) brightness(116%) contrast(94%);
+}
+
+.triangleHead {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-top: 2rem;
+    color: #0C153A;
+}
+
+.triangleBody {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding-top: 2rem;
+    color: #0C153A;
+}
+
+.bigMarquee {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 240px;
+    line-height: 280px;
+    letter-spacing: -6px;
+    color: #0C153A;
+}
+
+.promise {
+    display: flex;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 600px;
+    padding-right: 150px;
+    padding-top: 10rem;
+    color: #0C153A;
+}
+
+/********* option section ***********/
+
+.optionContainer {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: stretch;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
+    color: #0C153A;
+    
+    z-index: 3;
+}
+
+.union {
+    padding-right: 0.5rem;
+}
+
+.buildingBox {
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, .39);
+    border-radius: 10px;
+    height: 480px;
+    width: 320px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    color: #0C153A;
+
+    z-index: 3;
+}
+
+.option1 {
+    position: absolute;
+
+}
+
+.cirRing1 {
+    position: relative;
+    top: 4rem;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+}
+
+.buildingCir {
+    position: relative;
+    display: flex;
+    background-color:  #49C8C1;
+    border-radius: 50%;
+    left: 8px;
+    top: 8px;
+    height: 80px;
+    width: 80px;
+}
+
+.building {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 27px;
+    top: 24px;
+    width: 26px;
+    height: 32px;
+    filter: invert(98%) sepia(77%) saturate(569%) hue-rotate(303deg) brightness(116%) contrast(94%);
+}
+
+.buildingHead {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 6rem;
+    color: #0C153A;
+}
+
+.buildingBody {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.03;
+    line-height: 24px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #0C153A;
+}
+
+.expand1 {
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 1rem;
+    color: #0c153a;
+}
+
+.buildingBut {
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #1F4ADE;
+
+    width: 208px;
+    height: 56px;
+    border: 2px solid #1F4ADE;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+/*******2**********/
+.companyBox {
+    display: flex;
+    position: relative;
+    height: 550px;
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, .39);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    color: #0C153A;
+
+    z-index: 3;
+}
+
+.option2 {
+    position: absolute;
+}
+
+.cirRing2 {
+    position: relative;
+    top: 6rem;
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+}
+.companyCir {
+    position: relative;
+    display: flex;
+    background-color: #3893CD;
+    border-radius: 50%;
+    left: 8px;
+    top: 8px;
+    height: 80px;
+    width: 80px;
+}
+
+.company {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 25px;
+    top: 24px;
+    width: 29px;
+    height: 29px;
+}
+
+.companyHead {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 8.5rem;
+    color: #0C153A;
+}
+
+.companyBody {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.03;
+    line-height: 24px;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: #0C153A;
+}
+
+.expand2 {
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 1rem;
+    color: #0c153a;
+}
+
+.companyBut {
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #F8F2EE;
+
+    width: 208px;
+    height: 56px;
+    background: #1F4ADE;
+    border-radius: 32px;
+}
+/********3*********/
+.pencilBox {
+    display: flex;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5), 0 6px 20px 0 rgba(0, 0, 0, .39);
+    border-radius: 10px;
+    height: 485px;
+    width: 320px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    color: #0C153A;
+
+    z-index: 3;
+}
+
+.option3 {
+    position: absolute;
+}
+
+.cirRing3 {
+    position: relative;
+    display: flex;
+    top: 5rem;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    height: 96px;
+    width: 96px;
+}
+
+.pencilCir {
+    position: relative;
+    display: flex;
+    background-color: #1F4ADE;
+    border-radius: 50%;
+    left: 8px;
+    top: 8px;
+    height: 80px;
+    width: 80px;
+}
+
+.pencil {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 25px;
+    top: 24px;
+    width: 29px;
+    height: 29px;
+    filter: invert(98%) sepia(77%) saturate(569%) hue-rotate(303deg) brightness(116%) contrast(94%);
+}
+
+.pencilHead {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 6rem;
+    color: #0C153A;
+}
+
+.pencilBody {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.03;
+    line-height: 24px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #0C153A;
+}
+
+.expand3 {
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    padding: 1rem;
+    color: #0c153a;
+}
+
+.pencilBut {
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #1F4ADE;
+
+    width: 208px;
+    height: 56px;
+    border: 2px solid #1F4ADE;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+
+.colorShift {
+    position: absolute;
+    width: 100%;
+    height: 1820px;
+    top: 250px;
+}
+
+.lastState {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 150px;
+    bottom: 5rem;
+    color: blue;
+
+    z-index: 3;
+}
+
+.supportPlan {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.peace{
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-top: 10rem;
+    padding-left: 25rem;
+    padding-bottom: 6rem;
+    color: #FFFFFF;
+
+}
+
+.supportBut{
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #F8F2EE;
+
+    width: 208px;
+    height: 56px;
+    background: #1F4ADE;
+    border-radius: 32px;
+}
+
+/*****************Footer*******************/
+
+.footerBck {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 1300px;
+    background: #0C153A;
+    z-index: 1;
+}
+
+.footerHead {
+    display: flex;
+    position: relative;
+    width: 174px;
+    height: 36.4px;
+    left: 162px;
+    top: 580px;
+    z-index: 3;
+}
+
+.footerLogo {
+    position: relative;
+    margin-left: 10px;
+    z-index: 3;
+}
+
+.footContainer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 1368px;
+    height: 335px;
+    left: 24px;
+    top: 724px;
+}
+
+.footLink {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-bottom: 1rem;
+    color: rgb(250, 102, 48);
+}
+
+.contact {
+    display: flex;
+    font-family: Proxima Nova, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-bottom: 1rem;
+    color: rgb(250, 102, 48);
+}
+
+.footerNum {
+    display: flex;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    padding-bottom: 1rem;
+}
+
+.email {
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    padding-bottom: 1rem;
+}
+
+.documents {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 1rem;
+}
+
+.trademark {
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.names {
+    font-size: 15px;
+    line-height: 24px;
+    padding-bottom: 1rem;
+}
+
+
+@media (max-width:760px) {
+   
+}
